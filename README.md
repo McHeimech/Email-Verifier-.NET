@@ -1,4 +1,4 @@
-# Email-Verifier-.NET
+# Email Verifier .NET
 
 This windows forms application allows you to verify the existance of an e-mail address mailbox.
 

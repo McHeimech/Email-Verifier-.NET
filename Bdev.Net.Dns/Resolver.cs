@@ -130,7 +130,7 @@ namespace Bdev.Net.Dns
                 }
 
                 // we'll be send and receiving a UDP packet
-                var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                var socket = new Socket(server.AddressFamily, SocketType.Dgram, ProtocolType.Udp);
 
                 // we will wait at most 1 second for a dns reply
                 socket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 1000);
